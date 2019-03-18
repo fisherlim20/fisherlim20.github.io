@@ -946,6 +946,11 @@
 			opacity: 0;
 		}
 
+	.index_avatar {
+		wdith: 50%;
+		height: auto;
+	}
+
 /* Footer */
 
 	#footer {
