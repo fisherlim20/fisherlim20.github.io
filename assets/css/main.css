@@ -1,5 +1,5 @@
 @import url(font-awesome.min.css);
-@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300");
+@import url("https://fonts.googleapis.com/css?family=Roboto+Condensed");
 
 /*
 	Identity by HTML5 UP
@@ -158,8 +158,7 @@
 		font-size: 14pt;
 		font-weight: 300;
 		line-height: 2;
-		letter-spacing: 0.2em;
-		text-transform: uppercase;
+		//letter-spacing: 0.2em;
 	}
 
 		@media screen and (max-width: 1680px) {
@@ -215,6 +214,7 @@
 		color: #313f47;
 		line-height: 1.5;
 		margin: 0 0 0.75em 0;
+		text-transform: uppercase;
 	}
 
 		h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
@@ -224,12 +224,13 @@
 
 	h1 {
 		font-size: 1.85em;
-		letter-spacing: 0.22em;
+		//letter-spacing: 0.22em;
 		margin: 0 0 0.525em 0;
 	}
 
 	h2 {
 		font-size: 1.25em;
+		font-weight: bold;
 	}
 
 	h3 {
@@ -896,7 +897,7 @@
 		opacity: 0.95;
 		position: relative;
 		text-align: center;
-		width: 27em;
+		width: 800px;
 	}
 
 		#main .avatar {
@@ -945,6 +946,11 @@
 			transform: rotateX(15deg);
 			opacity: 0;
 		}
+
+	.main_avatar {
+		width: 150px;
+		height: auto;
+	}
 
 /* Footer */
 
