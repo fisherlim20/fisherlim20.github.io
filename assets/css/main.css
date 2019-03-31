@@ -184,7 +184,7 @@
 		-ms-transition: color 0.2s ease, border-color 0.2s ease;
 		transition: color 0.2s ease, border-color 0.2s ease;
 		color: inherit;
-		text-decoration: none;
+		text-decoration: underline;
 	}
 
 		a:before {
@@ -231,6 +231,7 @@
 	h2 {
 		font-size: 1.25em;
 		font-weight: bold;
+		padding-top: 15px;
 	}
 
 	h3 {
@@ -961,13 +962,23 @@
 
 	figcaption {
 		margin: 0;
-                padding: 0;
+                padding: 0 ;
                 border: 0;
                 font-size: 80% !important;
                 font: inherit;
                 vertical-align: baseline;
 		font-style: italic;
 		font-weight: bold;
+	}
+
+	figure {
+		padding: 0 0 30px 0;
+	}
+
+	.hr_height {
+		height: 20px !important;
+		visibility: hidden !important;
+		margin: 0 !important;
 	}
 
 /* Footer */
